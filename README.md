@@ -20,7 +20,7 @@ Force chrome to show basic authentication proxy connection UI:
 # terminal A
 $ go-authproxy -basic-auth user:pass # interrupt (e.g. <c-c>) to shutdown
 # terminal B
-$ chrome --proxy-server="128.0.01:8080"
+$ chrome --proxy-server="127.0.0.1:8080"
 ```
 
 ## More examples
